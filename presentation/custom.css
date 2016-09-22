@@ -12,3 +12,6 @@ pre {
   max-height: 500px;
 }
 
+button svg {
+  fill: rgba(255, 219, 169, 0.43) !important;
+}
