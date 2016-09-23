@@ -46,6 +46,7 @@ const images = mapValues({
   javascript2: require("../images/javascript2.jpg"),
   jobs: require("../images/jobs.png"),
   jobTitles: require("../images/jobtitles.png"),
+  moduleCounts: require("../images/module_counts.png"),
   openClosed: require("../images/open_closed.jpg"),
   survivejs: require("../images/survivejs.png"),
   redmonk: require("../images/redmonk.png")
@@ -233,9 +234,10 @@ export default class Presentation extends React.Component {
               <Appear><ListItem textColor="white">Started selling in April 2015</ListItem></Appear>
               <Appear><ListItem textColor="white">First free sale on 11th, first paid one on 12th ($8.5)</ListItem></Appear>
               <Appear><ListItem textColor="white">July 2015 - 1.0 milestone, hit $1k (<Link href="http://survivejs.com/blog/the-story-so-far/">crisis of faith</Link>)</ListItem></Appear>
+              <Appear><ListItem textColor="white">November 2015 - Hit $10k (<Link href="http://survivejs.com/blog/the-story-so-far/">crisis of faith</Link>)</ListItem></Appear>
               <Appear><ListItem textColor="white">February 2016 - 2.0 milestone, <Link href="http://www.amazon.com/SurviveJS-Webpack-React-apprentice-master/dp/152391050X">paper version</Link></ListItem></Appear>
-              <Appear><ListItem textColor="white">April 2016 - Split into two books (slightly lower pricepoint, bundling!).</ListItem></Appear>
-              <Appear><ListItem textColor="white">Next target - paper releases for the split books, Chinese translation</ListItem></Appear>
+              <Appear><ListItem textColor="white">April 2016 - Split into two books (lower pricepoint, bundle!).</ListItem></Appear>
+              <Appear><ListItem textColor="white">Next target - Paper releases for the split books, Chinese translation</ListItem></Appear>
             </List>
           </Slide>
 
