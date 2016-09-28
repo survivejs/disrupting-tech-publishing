@@ -44,8 +44,8 @@ const images = mapValues({
   jackie: require("../images/jackie.png"),
   javascript: require("../images/javascript.jpg"),
   javascript2: require("../images/javascript2.jpg"),
-  jobs: require("../images/jobs.png"),
   jobTitles: require("../images/jobtitles.png"),
+  kanban: require("../images/kanban.gif"),
   moduleCounts: require("../images/module_counts.png"),
   openClosed: require("../images/open_closed.jpg"),
   survivejs: require("../images/survivejs.png"),
@@ -91,8 +91,7 @@ export default class Presentation extends React.Component {
               Technical Authoring
             </Heading>
             <List>
-              <Appear><ListItem textColor="white">Technical content gets stale fast</ListItem></Appear>
-              <Appear><ListItem textColor="white">Threat or opportunity?</ListItem></Appear>
+              <Appear><ListItem textColor="white">Technical content gets stale fast &#8594; Threat or opportunity?</ListItem></Appear>
               <Appear><ListItem textColor="white">For every success there are dozens of failures</ListItem></Appear>
               <Appear><ListItem textColor="white">Hard to stand out in competition</ListItem></Appear>
             </List>
@@ -125,12 +124,6 @@ export default class Presentation extends React.Component {
                 </Markdown>
               </Fill>
             </Layout>
-          </Slide>
-
-          <Slide transition={slideTransition} bgColor="primary">
-            <Heading size={1} fit caps lineHeight={1} textColor="black">
-              {"Up to date technical content as a competitive advantage"}
-            </Heading>
           </Slide>
 
           <Slide transition={slideTransition} bgColor="white" notes="">
@@ -184,20 +177,6 @@ export default class Presentation extends React.Component {
               Job Trends
             </Heading>
             <Layout>
-              <Image src={images.jobs} padding="20px" />
-            </Layout>
-            <Layout>
-              <Text>
-                <Link href="http://www.indeed.com/jobtrends/q-React.js-q-Knockout-q-Backbone.js-q-Angularjs.html">Indeed</Link>
-              </Text>
-            </Layout>
-          </Slide>
-
-          <Slide transition={slideTransition} bgColor="primary">
-            <Heading size={1} textColor="tertiary">
-              Job Trends II
-            </Heading>
-            <Layout>
               <Image src={images.jobTitles} padding="20px" />
             </Layout>
             <Layout>
@@ -212,6 +191,10 @@ export default class Presentation extends React.Component {
               <Quote>Average salary of a React developer in SF - $153k</Quote>
               <Cite><Link href="http://www.indeed.com/salary?q1=React+Js+Front+End+Engineer&l1=San+Francisco%2C+CA">Indeed</Link></Cite>
             </BlockQuote>
+          </Slide>
+
+          <Slide transition={slideTransition} bgColor="black" notes="">
+            <Image src={images.kanban} margin="0px auto 40px" height="279px"/>
           </Slide>
 
           <Slide transition={slideTransition} bgColor="black" notes="">
@@ -234,7 +217,7 @@ export default class Presentation extends React.Component {
               <Appear><ListItem textColor="white">Started selling in April 2015</ListItem></Appear>
               <Appear><ListItem textColor="white">First free sale on 11th, first paid one on 12th ($8.5)</ListItem></Appear>
               <Appear><ListItem textColor="white">July 2015 - 1.0 milestone, hit $1k (<Link href="http://survivejs.com/blog/the-story-so-far/">crisis of faith</Link>)</ListItem></Appear>
-              <Appear><ListItem textColor="white">November 2015 - Hit $10k (<Link href="http://survivejs.com/blog/the-story-so-far/">crisis of faith</Link>)</ListItem></Appear>
+              <Appear><ListItem textColor="white">November 2015 - Hit $10k</ListItem></Appear>
               <Appear><ListItem textColor="white">February 2016 - 2.0 milestone, <Link href="http://www.amazon.com/SurviveJS-Webpack-React-apprentice-master/dp/152391050X">paper version</Link></ListItem></Appear>
               <Appear><ListItem textColor="white">April 2016 - Split into two books (lower pricepoint, bundle!).</ListItem></Appear>
               <Appear><ListItem textColor="white">Next target - Paper releases for the split books, Chinese translation</ListItem></Appear>
