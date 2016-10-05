@@ -194,10 +194,6 @@ export default class Presentation extends React.Component {
           </Slide>
 
           <Slide transition={slideTransition} bgColor="black" notes="">
-            <Image src={images.kanban} margin="0px auto 40px" height="279px"/>
-          </Slide>
-
-          <Slide transition={slideTransition} bgColor="black" notes="">
             <Image src={images.javascript} margin="0px auto 40px" height="650px"/>
           </Slide>
 
@@ -207,6 +203,10 @@ export default class Presentation extends React.Component {
 
           <Slide transition={slideTransition} bgColor="black" notes="">
             <Image src={images.javascript2} margin="0px auto 40px" height="650px"/>
+          </Slide>
+
+          <Slide transition={slideTransition} bgColor="black" notes="">
+            <Image src={images.kanban} margin="0px auto 40px" height="279px"/>
           </Slide>
 
           <Slide transition={slideTransition} bgColor="secondary">
