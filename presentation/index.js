@@ -74,8 +74,8 @@ export default class Presentation extends React.Component {
               Quick Math
             </Heading>
             <List>
-              <Appear><ListItem textColor="white">10000$ / (20$ * 0.9) = 556 units sold</ListItem></Appear>
               <Appear><ListItem textColor="white">10000$ / (20$ * 0.1) = 5000 units sold</ListItem></Appear>
+              <Appear><ListItem textColor="white">10000$ / (20$ * 0.9) = 556 units sold</ListItem></Appear>
               <Appear><ListItem textColor="white">~9x difference</ListItem></Appear>
             </List>
           </Slide>
